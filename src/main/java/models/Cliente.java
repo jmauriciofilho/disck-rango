@@ -51,4 +51,13 @@ public class Cliente extends Pessoa{
     public void setPontoDeReferencia(String pontoDeReferencia) {
         this.pontoDeReferencia = pontoDeReferencia;
     }
+
+    @Override
+    public String toString() {
+        return "Cliente{ id='" + id + '\''+
+                ", nome='" + getNome() + '\''+
+                ", endereço='" + endereco + '\'' +
+                ", telefone='" + telefone + '\'' +
+                '}';
+    }
 }

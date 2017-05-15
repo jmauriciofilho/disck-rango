@@ -20,8 +20,12 @@ public class ClienteController {
         return "Cliente atualizado com sucesso.";
     }
 
-    public String delete(Cliente cliente){
-        clienteDao.delete(cliente);
+    public String delete(int clienteId){
+        clienteDao.delete(clienteId);
         return "Cliente removido com sucesso.";
+    }
+
+    public Cliente find(String nome){
+        return clienteDao.find(nome);
     }
 }

@@ -5,6 +5,7 @@ import models.Cliente;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
+import java.sql.ResultSet;
 import java.sql.SQLException;
 
 /**
@@ -52,12 +53,12 @@ public class ClienteDao implements CrudDao<Cliente>{
         }
     }
 
-    public void delete(Cliente cliente){
+    public void delete(int clienteId){
         try {
             connection = conexao.open();
             sql = "DELETE FROM clientes WHERE id=?";
             statement = connection.prepareStatement(sql);
-            statement.setInt(1, cliente.getId());
+            statement.setInt(1, clienteId);
             statement.execute();
             conexao.close();
         }catch (SQLException e){
@@ -66,11 +67,46 @@ public class ClienteDao implements CrudDao<Cliente>{
         }
     }
 
-    public void find(Cliente cliente) {
+    public Cliente find(String nome) {
+        Cliente cliente = new Cliente();
+        try {
+            connection = conexao.open();
+            sql = "SELECT id, nome, endereco, telefone FROM clientes WHERE nome=?";
+            statement = connection.prepareStatement(sql);
+            statement.setString(1, nome);
+            ResultSet rs = statement.executeQuery();
+            if (rs.first()){
+                cliente.setId(rs.getInt("id"));
+                cliente.setNome(rs.getString("nome"));
+                cliente.setEndereco(rs.getString("endereco"));
+                cliente.setTelefone(rs.getString("telefone"));
+            }
+            rs.close();
+            conexao.close();
+        }catch (SQLException e){
+            conexao.close();
+            e.printStackTrace();
+        }
 
+        return cliente;
     }
 
-    public void all() {
+    public Cliente[] all() {
+        Cliente[] clientes;
+        try {
+            connection = conexao.open();
+            sql = "SELECT * FROM clientes";
+            statement = connection.prepareStatement(sql);
+            ResultSet rs = statement.executeQuery();
+            if (rs != null){
 
+            }
+            conexao.close();
+        }catch (SQLException e){
+            conexao.close();
+            e.printStackTrace();
+        }
+
+       return null;
     }
 }

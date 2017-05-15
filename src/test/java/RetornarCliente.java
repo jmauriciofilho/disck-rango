@@ -4,12 +4,14 @@ import models.Cliente;
 /**
  * Created by mauricio on 15/05/17.
  */
-public class DeletarCliente {
+public class RetornarCliente {
     public static void main(String[] args) {
         ClienteController clienteController = new ClienteController();
 
-        int clienteId = 3;
+        String nome = "Maurício";
 
-        System.out.println(clienteController.delete(clienteId));
+        Cliente cliente = clienteController.find(nome);
+
+        System.out.println(cliente.toString());
     }
 }

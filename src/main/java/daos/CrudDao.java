@@ -1,5 +1,7 @@
 package daos;
 
+import models.Cliente;
+
 /**
  * Created by mauricio on 15/05/17.
  */
@@ -9,9 +11,9 @@ public interface CrudDao<E> {
 
     void update(E e);
 
-    void delete(E e);
+    void delete(int i);
 
-    void find(E e);
+    Object find(String s);
 
-    void all();
+    Object[] all();
 }
