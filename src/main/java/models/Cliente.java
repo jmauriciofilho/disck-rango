@@ -14,7 +14,7 @@ public class Cliente extends Pessoa{
 
     public Cliente(int id, String nome, String endereco, String telefone, String pontoDeReferencia) {
         this.id = id;
-        super.setNome(nome);
+        super.nome = nome;
         this.endereco = endereco;
         this.telefone = telefone;
         this.pontoDeReferencia = pontoDeReferencia;
@@ -55,7 +55,7 @@ public class Cliente extends Pessoa{
     @Override
     public String toString() {
         return "Cliente{ id='" + id + '\''+
-                ", nome='" + getNome() + '\''+
+                ", nome='" + nome + '\''+
                 ", endereço='" + endereco + '\'' +
                 ", telefone='" + telefone + '\'' +
                 '}';
