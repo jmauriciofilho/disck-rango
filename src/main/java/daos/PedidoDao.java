@@ -18,7 +18,7 @@ public class PedidoDao implements CrudDao<Pedido>{
     private String sql;
 
     public void create(Pedido pedido) {
-        
+
     }
 
     public void update(Pedido pedido) {
