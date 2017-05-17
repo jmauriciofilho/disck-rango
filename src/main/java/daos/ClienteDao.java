@@ -113,6 +113,7 @@ public class ClienteDao implements CrudDao<Cliente>{
                     }
                 }
             }
+            rs.close();
             conexao.close();
         }catch (SQLException e){
             conexao.close();

@@ -6,15 +6,19 @@ package models;
 public class Pedido {
 
     private int id;
+    private int clienteId;
+    private int entregadorId;
     private String dataDoPedido;
     private double valor;
     private String tipoDePagamento;
 
     public Pedido(){}
 
-    public Pedido(int id, String data, double valor, String tipoDePagamento) {
+    public Pedido(int id, int clienteId, int entregadorId, String dataDoPedido, double valor, String tipoDePagamento) {
         this.id = id;
-        this.dataDoPedido = data;
+        this.clienteId = clienteId;
+        this.entregadorId = entregadorId;
+        this.dataDoPedido = dataDoPedido;
         this.valor = valor;
         this.tipoDePagamento = tipoDePagamento;
     }
@@ -27,11 +31,27 @@ public class Pedido {
         this.id = id;
     }
 
-    public String getData() {
+    public int getClienteId() {
+        return clienteId;
+    }
+
+    public void setClienteId(int clienteId) {
+        this.clienteId = clienteId;
+    }
+
+    public int getEntregadorId() {
+        return entregadorId;
+    }
+
+    public void setEntregadorId(int entregadorId) {
+        this.entregadorId = entregadorId;
+    }
+
+    public String getDataDoPedido() {
         return dataDoPedido;
     }
 
-    public void setData(String dataDoPedido) {
+    public void setDataDoPedido(String dataDoPedido) {
         this.dataDoPedido = dataDoPedido;
     }
 

@@ -15,7 +15,7 @@ public interface CrudDao<E> {
 
     void delete(int i);
 
-    Object find(String s);
+    E find(String s);
 
     List<E> all();
 }

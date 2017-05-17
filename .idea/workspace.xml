@@ -2,30 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c4a61e03-2325-4661-a2a3-4bda8f484c08" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/daos/BebidaDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/daos/EntregadorDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/daos/PedidoDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/daos/RefeicaoDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/daos/SobremesaDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/TesteClientes/RetornarTodosOsClientes.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/AtualizarCliente.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/CadastrarClientes.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/DeletarCliente.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/RetornarCliente.class" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/AtualizarCliente.java" afterPath="$PROJECT_DIR$/src/test/java/TesteClientes/AtualizarCliente.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/CadastrarClientes.java" afterPath="$PROJECT_DIR$/src/test/java/TesteClientes/CadastrarClientes.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/DeletarCliente.java" afterPath="$PROJECT_DIR$/src/test/java/TesteClientes/DeletarCliente.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/RetornarCliente.java" afterPath="$PROJECT_DIR$/src/test/java/TesteClientes/RetornarCliente.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/controllers/ClienteController.class" afterPath="$PROJECT_DIR$/target/classes/controllers/ClienteController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/daos/ClienteDao.class" afterPath="$PROJECT_DIR$/target/classes/daos/ClienteDao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/daos/CrudDao.class" afterPath="$PROJECT_DIR$/target/classes/daos/CrudDao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/models/Cliente.class" afterPath="$PROJECT_DIR$/target/classes/models/Cliente.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/models/Pessoa.class" afterPath="$PROJECT_DIR$/target/classes/models/Pessoa.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/controllers/ClienteController.java" afterPath="$PROJECT_DIR$/src/main/java/controllers/ClienteController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/daos/BebidaDao.java" afterPath="$PROJECT_DIR$/src/main/java/daos/BebidaDao.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/daos/ClienteDao.java" afterPath="$PROJECT_DIR$/src/main/java/daos/ClienteDao.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/daos/CrudDao.java" afterPath="$PROJECT_DIR$/src/main/java/daos/CrudDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/daos/EntregadorDao.java" afterPath="$PROJECT_DIR$/src/main/java/daos/EntregadorDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/daos/PedidoDao.java" afterPath="$PROJECT_DIR$/src/main/java/daos/PedidoDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/daos/RefeicaoDao.java" afterPath="$PROJECT_DIR$/src/main/java/daos/RefeicaoDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/daos/SobremesaDao.java" afterPath="$PROJECT_DIR$/src/main/java/daos/SobremesaDao.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/models/Pedido.java" afterPath="$PROJECT_DIR$/src/main/java/models/Pedido.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -49,48 +32,61 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ClienteDao.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/daos/ClienteDao.java">
+      <file leaf-file-name="Pedido.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/models/Pedido.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="320">
+              <caret line="16" column="119" lean-forward="false" selection-start-line="16" selection-start-column="119" selection-end-line="16" selection-end-column="119" />
+              <folding>
+                <element signature="e#706#707#0" expanded="true" />
+                <element signature="e#734#735#0" expanded="true" />
+                <element signature="e#767#768#0" expanded="true" />
+                <element signature="e#799#800#0" expanded="true" />
+                <element signature="e#846#847#0" expanded="true" />
+                <element signature="e#888#889#0" expanded="true" />
+                <element signature="e#924#925#0" expanded="true" />
+                <element signature="e#959#960#0" expanded="true" />
+                <element signature="e#1012#1013#0" expanded="true" />
+                <element signature="e#1060#1061#0" expanded="true" />
+                <element signature="e#1099#1100#0" expanded="true" />
+                <element signature="e#1134#1135#0" expanded="true" />
+                <element signature="e#1190#1191#0" expanded="true" />
+                <element signature="e#1238#1239#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BebidaDao.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/daos/BebidaDao.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="2380">
-              <caret line="119" column="9" lean-forward="true" selection-start-line="119" selection-start-column="9" selection-end-line="119" selection-end-column="9" />
+              <caret line="119" column="22" lean-forward="false" selection-start-line="119" selection-start-column="22" selection-end-line="119" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#3221#3230#0" expanded="true" />
-                <marker date="1495024468940" expanded="true" signature="597:680" ph="INSERT INTO clientes... " />
-                <marker date="1495024468940" expanded="true" signature="738:739" ph="INSERT INTO clientes... " />
-                <marker date="1495024468940" expanded="true" signature="1271:1353" ph="UPDATE clien... " />
-                <marker date="1495024468940" expanded="true" signature="1271:1355" ph="UPDATE INTO " />
-                <marker date="1495024468940" expanded="true" signature="1998:2029" ph="DELETE FROM " />
-                <marker date="1495024468940" expanded="true" signature="2462:2524" ph="SELECT nome,... clientes" />
-                <marker date="1495024468940" expanded="true" signature="3308:3330" ph="SELECT * FRO... clientes" />
+                <element signature="e#3058#3066#0" expanded="true" />
+                <marker date="1495041334505" expanded="true" signature="593:662" ph="INSERT INTO bebidas... " />
+                <marker date="1495041334505" expanded="true" signature="1184:1252" ph="UPDATE refei... " />
+                <marker date="1495041334505" expanded="true" signature="1831:1861" ph="DELETE FROM " />
+                <marker date="1495041334505" expanded="true" signature="2289:2358" ph="SELECT id, n... beb" />
+                <marker date="1495041334505" expanded="true" signature="3144:3158" ph="SELECT * FRO... refeicoes" />
+                <marker date="1495041334505" expanded="true" signature="3144:3165" ph="SELECT * FRO... bebidas" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ClienteController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/controllers/ClienteController.java">
+      <file leaf-file-name="PedidoDao.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/daos/PedidoDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="20" column="18" lean-forward="true" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
-              <folding>
-                <element signature="e#669#670#0" expanded="true" />
-                <element signature="e#713#714#0" expanded="true" />
-                <element signature="e#746#747#0" expanded="true" />
-                <element signature="e#785#786#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RetornarTodosOsClientes.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/TesteClientes/RetornarTodosOsClientes.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="14" column="57" lean-forward="true" selection-start-line="14" selection-start-column="57" selection-end-line="14" selection-end-column="57" />
+            <state relative-caret-position="113">
+              <caret line="12" column="8" lean-forward="true" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#345#346#0" expanded="true" />
+                <element signature="e#372#373#0" expanded="true" />
+                <element signature="e#405#406#0" expanded="true" />
+                <element signature="e#432#433#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -134,15 +130,20 @@
         <option value="$PROJECT_DIR$/src/main/java/models/Bebida.java" />
         <option value="$PROJECT_DIR$/src/main/java/models/Refeicao.java" />
         <option value="$PROJECT_DIR$/src/main/java/models/Sobremesa.java" />
-        <option value="$PROJECT_DIR$/src/main/java/models/Pedido.java" />
-        <option value="$PROJECT_DIR$/src/main/java/daos/CrudDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/daos/ClienteDao.java" />
         <option value="$PROJECT_DIR$/src/test/java/TesteClientes/AtualizarCliente.java" />
         <option value="$PROJECT_DIR$/src/test/java/TesteClientes/CadastrarClientes.java" />
         <option value="$PROJECT_DIR$/src/test/java/TesteClientes/DeletarCliente.java" />
         <option value="$PROJECT_DIR$/src/test/java/TesteClientes/RetornarCliente.java" />
         <option value="$PROJECT_DIR$/src/main/java/controllers/ClienteController.java" />
         <option value="$PROJECT_DIR$/src/test/java/TesteClientes/RetornarTodosOsClientes.java" />
+        <option value="$PROJECT_DIR$/src/main/java/daos/ClienteDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/daos/CrudDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/daos/EntregadorDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/daos/RefeicaoDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/daos/SobremesaDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/daos/BebidaDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/daos/PedidoDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/models/Pedido.java" />
       </list>
     </option>
   </component>
@@ -298,7 +299,33 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
+              <option name="myItemId" value="models" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DisckRango" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DisckRango" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="daos" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -843,12 +870,12 @@
       <workItem from="1494810039876" duration="3097000" />
       <workItem from="1494854868331" duration="19316000" />
       <workItem from="1494935955157" duration="4537000" />
-      <workItem from="1495020819555" duration="3697000" />
+      <workItem from="1495020819555" duration="12283000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30647000" />
+    <option name="totallyTimeSpent" value="39233000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="64" y="-11" width="1303" height="780" extended-state="6" />
@@ -906,12 +933,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="12" column="20" lean-forward="false" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
-          <folding>
-            <element signature="e#581#582#0" expanded="true" />
-            <element signature="e#616#617#0" expanded="true" />
-            <element signature="e#664#665#0" expanded="true" />
-            <element signature="e#712#713#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -961,13 +983,13 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#3221#3230#0" expanded="true" />
-            <marker date="1495024468940" expanded="true" signature="597:680" ph="INSERT INTO clientes... " />
-            <marker date="1495024468940" expanded="true" signature="738:739" ph="INSERT INTO clientes... " />
-            <marker date="1495024468940" expanded="true" signature="1271:1353" ph="UPDATE clien... " />
-            <marker date="1495024468940" expanded="true" signature="1271:1355" ph="UPDATE INTO " />
-            <marker date="1495024468940" expanded="true" signature="1998:2029" ph="DELETE FROM " />
-            <marker date="1495024468940" expanded="true" signature="2462:2524" ph="SELECT nome,... clientes" />
-            <marker date="1495024468940" expanded="true" signature="3308:3330" ph="SELECT * FRO... clientes" />
+            <marker date="1495028424426" expanded="true" signature="597:680" ph="INSERT INTO clientes... " />
+            <marker date="1495028424426" expanded="true" signature="738:739" ph="INSERT INTO clientes... " />
+            <marker date="1495028424426" expanded="true" signature="1271:1353" ph="UPDATE clien... " />
+            <marker date="1495028424426" expanded="true" signature="1271:1355" ph="UPDATE INTO " />
+            <marker date="1495028424426" expanded="true" signature="1998:2029" ph="DELETE FROM " />
+            <marker date="1495028424426" expanded="true" signature="2462:2524" ph="SELECT nome,... clientes" />
+            <marker date="1495028424426" expanded="true" signature="3308:3330" ph="SELECT * FRO... clientes" />
           </folding>
         </state>
       </provider>
@@ -1064,67 +1086,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/models/Refeicao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="9" column="22" lean-forward="false" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/models/Pedido.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="34" column="40" lean-forward="false" selection-start-line="34" selection-start-column="40" selection-end-line="34" selection-end-column="40" />
-          <folding>
-            <element signature="e#581#582#0" expanded="true" />
-            <element signature="e#616#617#0" expanded="true" />
-            <element signature="e#664#665#0" expanded="true" />
-            <element signature="e#712#713#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/daos/PedidoDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="22" lean-forward="false" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/daos/EntregadorDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="26" lean-forward="false" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/daos/RefeicaoDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="24" lean-forward="false" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/daos/SobremesaDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="25" lean-forward="false" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/daos/BebidaDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="23" lean-forward="false" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/models/Cliente.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="707">
@@ -1165,43 +1126,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/daos/CrudDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/daos/ClienteDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2380">
-          <caret line="119" column="9" lean-forward="true" selection-start-line="119" selection-start-column="9" selection-end-line="119" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3221#3230#0" expanded="true" />
-            <marker date="1495024468940" expanded="true" signature="597:680" ph="INSERT INTO clientes... " />
-            <marker date="1495024468940" expanded="true" signature="738:739" ph="INSERT INTO clientes... " />
-            <marker date="1495024468940" expanded="true" signature="1271:1353" ph="UPDATE clien... " />
-            <marker date="1495024468940" expanded="true" signature="1271:1355" ph="UPDATE INTO " />
-            <marker date="1495024468940" expanded="true" signature="1998:2029" ph="DELETE FROM " />
-            <marker date="1495024468940" expanded="true" signature="2462:2524" ph="SELECT nome,... clientes" />
-            <marker date="1495024468940" expanded="true" signature="3308:3330" ph="SELECT * FRO... clientes" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/controllers/ClienteController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="297">
           <caret line="20" column="18" lean-forward="true" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
           <folding>
-            <element signature="e#669#670#0" expanded="true" />
-            <element signature="e#713#714#0" expanded="true" />
-            <element signature="e#746#747#0" expanded="true" />
-            <element signature="e#785#786#0" expanded="true" />
+            <element signature="e#669#670#0" expanded="false" />
+            <element signature="e#713#714#0" expanded="false" />
+            <element signature="e#746#747#0" expanded="false" />
+            <element signature="e#785#786#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1211,7 +1144,145 @@
         <state relative-caret-position="280">
           <caret line="14" column="57" lean-forward="true" selection-start-line="14" selection-start-column="57" selection-end-line="14" selection-end-column="57" />
           <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/models/Refeicao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="33">
+          <caret line="9" column="22" lean-forward="false" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/daos/CrudDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="19" column="18" lean-forward="true" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/daos/SobremesaDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2300">
+          <caret line="115" column="25" lean-forward="false" selection-start-line="115" selection-start-column="25" selection-end-line="115" selection-end-column="25" />
+          <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#2864#2875#0" expanded="true" />
+            <marker date="1495031373342" expanded="true" signature="608:656" ph="INSERT INTO sobremesa... " />
+            <marker date="1495031373342" expanded="true" signature="1126:1173" ph="UPDATE sobre... " />
+            <marker date="1495031373342" expanded="true" signature="1697:1729" ph="DELETE FROM " />
+            <marker date="1495031373342" expanded="true" signature="2172:2222" ph="SELECT id, n... sobremesa" />
+            <marker date="1495031373342" expanded="true" signature="2953:2976" ph="SELECT * FRO... sobremesa" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/daos/ClienteDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1930">
+          <caret line="115" column="23" lean-forward="false" selection-start-line="115" selection-start-column="23" selection-end-line="115" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3221#3230#0" expanded="true" />
+            <marker date="1495028424426" expanded="true" signature="597:680" ph="INSERT INTO clientes... " />
+            <marker date="1495028424426" expanded="true" signature="738:739" ph="INSERT INTO clientes... " />
+            <marker date="1495028424426" expanded="true" signature="1271:1353" ph="UPDATE clien... " />
+            <marker date="1495028424426" expanded="true" signature="1271:1355" ph="UPDATE INTO " />
+            <marker date="1495028424426" expanded="true" signature="1998:2029" ph="DELETE FROM " />
+            <marker date="1495028424426" expanded="true" signature="2462:2524" ph="SELECT nome,... clientes" />
+            <marker date="1495028424426" expanded="true" signature="3308:3330" ph="SELECT * FRO... clientes" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/daos/RefeicaoDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="112" column="25" lean-forward="false" selection-start-line="112" selection-start-column="25" selection-end-line="112" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2738#2748#0" expanded="true" />
+            <marker date="1495030425204" expanded="true" signature="502:550" ph="INSERT INTO refeicoes... " />
+            <marker date="1495030425204" expanded="true" signature="1016:1063" ph="UPDATE entre... " />
+            <marker date="1495030425204" expanded="true" signature="1583:1615" ph="DELETE FROM " />
+            <marker date="1495030425204" expanded="true" signature="2053:2103" ph="SELECT id, n... refeicoes" />
+            <marker date="1495030425204" expanded="true" signature="2826:2849" ph="SELECT * FRO... refeicoes" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/daos/EntregadorDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="110" column="32" lean-forward="true" selection-start-line="110" selection-start-column="32" selection-end-line="110" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2959#2971#0" expanded="true" />
+            <marker date="1495028645219" expanded="true" signature="613:673" ph="INSERT INTO entregadores... " />
+            <marker date="1495028645219" expanded="true" signature="1154:1213" ph="UPDATE clien... " />
+            <marker date="1495028645219" expanded="true" signature="1748:1783" ph="DELETE FROM " />
+            <marker date="1495028645219" expanded="true" signature="2231:2293" ph="SELECT id, n... entregadores" />
+            <marker date="1495028645219" expanded="true" signature="3049:3075" ph="SELECT * FRO... entregadores" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/daos/BebidaDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2380">
+          <caret line="119" column="22" lean-forward="false" selection-start-line="119" selection-start-column="22" selection-end-line="119" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3058#3066#0" expanded="true" />
+            <marker date="1495041334505" expanded="true" signature="593:662" ph="INSERT INTO bebidas... " />
+            <marker date="1495041334505" expanded="true" signature="1184:1252" ph="UPDATE refei... " />
+            <marker date="1495041334505" expanded="true" signature="1831:1861" ph="DELETE FROM " />
+            <marker date="1495041334505" expanded="true" signature="2289:2358" ph="SELECT id, n... beb" />
+            <marker date="1495041334505" expanded="true" signature="3144:3158" ph="SELECT * FRO... refeicoes" />
+            <marker date="1495041334505" expanded="true" signature="3144:3165" ph="SELECT * FRO... bebidas" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/models/Pedido.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="16" column="119" lean-forward="false" selection-start-line="16" selection-start-column="119" selection-end-line="16" selection-end-column="119" />
+          <folding>
+            <element signature="e#706#707#0" expanded="true" />
+            <element signature="e#734#735#0" expanded="true" />
+            <element signature="e#767#768#0" expanded="true" />
+            <element signature="e#799#800#0" expanded="true" />
+            <element signature="e#846#847#0" expanded="true" />
+            <element signature="e#888#889#0" expanded="true" />
+            <element signature="e#924#925#0" expanded="true" />
+            <element signature="e#959#960#0" expanded="true" />
+            <element signature="e#1012#1013#0" expanded="true" />
+            <element signature="e#1060#1061#0" expanded="true" />
+            <element signature="e#1099#1100#0" expanded="true" />
+            <element signature="e#1134#1135#0" expanded="true" />
+            <element signature="e#1190#1191#0" expanded="true" />
+            <element signature="e#1238#1239#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/daos/PedidoDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="12" column="8" lean-forward="true" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#345#346#0" expanded="true" />
+            <element signature="e#372#373#0" expanded="true" />
+            <element signature="e#405#406#0" expanded="true" />
+            <element signature="e#432#433#0" expanded="true" />
           </folding>
         </state>
       </provider>
