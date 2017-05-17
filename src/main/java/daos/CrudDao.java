@@ -2,6 +2,8 @@ package daos;
 
 import models.Cliente;
 
+import java.util.List;
+
 /**
  * Created by mauricio on 15/05/17.
  */
@@ -15,5 +17,5 @@ public interface CrudDao<E> {
 
     Object find(String s);
 
-    Object[] all();
+    List<E> all();
 }

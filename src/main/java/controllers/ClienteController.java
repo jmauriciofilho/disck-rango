@@ -3,12 +3,14 @@ package controllers;
 import daos.ClienteDao;
 import models.Cliente;
 
+import java.util.List;
+
 /**
  * Created by mauricio on 15/05/17.
  */
 public class ClienteController {
 
-    ClienteDao clienteDao = new ClienteDao();
+    private ClienteDao clienteDao = new ClienteDao();
 
     public String create(Cliente cliente){
         clienteDao.create(cliente);
@@ -27,5 +29,9 @@ public class ClienteController {
 
     public Cliente find(String nome){
         return clienteDao.find(nome);
+    }
+
+    public List<Cliente> all(){
+        return clienteDao.all();
     }
 }

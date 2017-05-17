@@ -7,6 +7,8 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * Created by mauricio on 14/05/17.
@@ -91,15 +93,25 @@ public class ClienteDao implements CrudDao<Cliente>{
         return cliente;
     }
 
-    public Cliente[] all() {
-        Cliente[] clientes;
+    public List<Cliente> all() {
+        List<Cliente> clientes = new ArrayList<Cliente>();
         try {
             connection = conexao.open();
             sql = "SELECT * FROM clientes";
             statement = connection.prepareStatement(sql);
             ResultSet rs = statement.executeQuery();
             if (rs != null){
-
+                while (rs.next()){
+                    if (rs.first()){
+                        Cliente cliente = new Cliente();
+                        cliente.setId(rs.getInt("id"));
+                        cliente.setNome(rs.getString("nome"));
+                        cliente.setEndereco(rs.getString("endereco"));
+                        cliente.setTelefone(rs.getString("telefone"));
+                        cliente.setPontoDeReferencia(rs.getString("pontoDeReferencia"));
+                        clientes.add(cliente);
+                    }
+                }
             }
             conexao.close();
         }catch (SQLException e){
@@ -107,6 +119,6 @@ public class ClienteDao implements CrudDao<Cliente>{
             e.printStackTrace();
         }
 
-       return null;
+       return clientes;
     }
 }

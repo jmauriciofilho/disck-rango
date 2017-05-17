@@ -6,7 +6,7 @@ package models;
 public class Pedido {
 
     private int id;
-    private String data;
+    private String dataDoPedido;
     private double valor;
     private String tipoDePagamento;
 
@@ -14,7 +14,7 @@ public class Pedido {
 
     public Pedido(int id, String data, double valor, String tipoDePagamento) {
         this.id = id;
-        this.data = data;
+        this.dataDoPedido = data;
         this.valor = valor;
         this.tipoDePagamento = tipoDePagamento;
     }
@@ -28,11 +28,11 @@ public class Pedido {
     }
 
     public String getData() {
-        return data;
+        return dataDoPedido;
     }
 
-    public void setData(String data) {
-        this.data = data;
+    public void setData(String dataDoPedido) {
+        this.dataDoPedido = dataDoPedido;
     }
 
     public double getValor() {
