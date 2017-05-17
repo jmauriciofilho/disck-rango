@@ -31,4 +31,13 @@ public class Entregador extends Pessoa{
     public void setPlacaVeiculo(String placaVeiculo) {
         this.placaVeiculo = placaVeiculo;
     }
+
+    @Override
+    public String toString() {
+        return "Entregador{" +
+                "nome='" + nome + '\'' +
+                ", id=" + id +
+                ", placaVeiculo='" + placaVeiculo + '\'' +
+                '}';
+    }
 }

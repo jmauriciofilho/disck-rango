@@ -32,4 +32,14 @@ public class Bebida extends Item{
     public void setQuantideEmEstoque(int quantideEmEstoque) {
         this.quantideEmEstoque = quantideEmEstoque;
     }
+
+    @Override
+    public String toString() {
+        return "Bebida{" +
+                "nome='" + nome + '\'' +
+                ", id=" + id +
+                ", quantideEmEstoque=" + quantideEmEstoque +
+                ", valor=" + valor +
+                '}';
+    }
 }

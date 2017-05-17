@@ -22,4 +22,13 @@ public class Sobremesa extends Item{
     public void setId(int id) {
         this.id = id;
     }
+
+    @Override
+    public String toString() {
+        return "Sobremesa{" +
+                "nome='" + nome + '\'' +
+                ", id=" + id +
+                ", valor=" + valor +
+                '}';
+    }
 }

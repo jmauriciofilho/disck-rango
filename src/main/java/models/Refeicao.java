@@ -22,4 +22,13 @@ public class Refeicao extends Item{
     public void setId(int id) {
         this.id = id;
     }
+
+    @Override
+    public String toString() {
+        return "Refeicao{" +
+                "nome='" + nome + '\'' +
+                ", id=" + id +
+                ", valor=" + valor +
+                '}';
+    }
 }

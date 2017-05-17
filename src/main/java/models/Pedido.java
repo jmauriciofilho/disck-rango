@@ -1,5 +1,7 @@
 package models;
 
+import java.util.List;
+
 /**
  * Created by mauricio on 16/05/17.
  */
@@ -69,5 +71,17 @@ public class Pedido {
 
     public void setTipoDePagamento(String tipoDePagamento) {
         this.tipoDePagamento = tipoDePagamento;
+    }
+
+    @Override
+    public String toString() {
+        return "Pedido{" +
+                "id=" + id +
+                ", clienteId=" + clienteId +
+                ", entregadorId=" + entregadorId +
+                ", dataDoPedido='" + dataDoPedido + '\'' +
+                ", valor=" + valor +
+                ", tipoDePagamento='" + tipoDePagamento + '\'' +
+                '}';
     }
 }

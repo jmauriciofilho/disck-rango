@@ -8,7 +8,7 @@ import java.util.List;
 /**
  * Created by mauricio on 15/05/17.
  */
-public class ClienteController {
+public class ClienteController implements CrudController<Cliente>{
 
     private ClienteDao clienteDao = new ClienteDao();
 
