@@ -1,7 +1,5 @@
 package models;
 
-import java.util.List;
-
 /**
  * Created by mauricio on 16/05/17.
  */
