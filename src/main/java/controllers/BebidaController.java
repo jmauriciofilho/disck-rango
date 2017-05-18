@@ -27,6 +27,10 @@ public class BebidaController implements CrudController<Bebida>{
         return "Quantidade de bebidas em estoque alteradas.";
     }
 
+    public Integer bebidaEmEstoque(int bebidaId){
+        return bebidaDao.bebidaEmEstoque(bebidaId);
+    }
+
     public String delete(int bebidaId) {
         bebidaDao.delete(bebidaId);
         return "Bebida excluida com sucesso.";

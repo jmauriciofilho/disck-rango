@@ -11,7 +11,7 @@ import java.util.List;
  */
 public class PedidoController {
 
-    PedidoDao pedidoDao = new PedidoDao();
+    private PedidoDao pedidoDao = new PedidoDao();
 
     public String create(Pedido pedido){
         pedidoDao.create(pedido);
@@ -53,7 +53,7 @@ public class PedidoController {
         Pedido pedido = find(pedidoId);
         if (pedido.isPendente() || !pedido.isDevolvido()) {
             pedidoDao.delete(pedidoId);
-            return "Pedido exculido com sucesso";
+            return "Pedido excluido com sucesso";
         }else {
             return "Pedido não pode ser removido";
         }

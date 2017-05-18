@@ -10,6 +10,7 @@ public class Cliente extends Pessoa{
     private String telefone;
     private String pontoDeReferencia;
     private boolean ativo;
+    private int quantidadeDevolucoes;
 
     public Cliente(){}
 
@@ -59,6 +60,14 @@ public class Cliente extends Pessoa{
 
     public void setAtivo(boolean ativo) {
         this.ativo = ativo;
+    }
+
+    public int getQuantidadeDevolucoes() {
+        return quantidadeDevolucoes;
+    }
+
+    public void setQuantidadeDevolucoes(int quantidadeDevolucoes) {
+        this.quantidadeDevolucoes = quantidadeDevolucoes;
     }
 
     @Override

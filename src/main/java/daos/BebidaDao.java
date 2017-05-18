@@ -82,6 +82,28 @@ public class BebidaDao implements CrudDao<Bebida>{
         }
     }
 
+    public Integer bebidaEmEstoque(int bebidaId){
+        Bebida bebida = new Bebida();
+        Integer quantidade = 0;
+        try {
+            connection = conexao.open();
+            sql = "SELECT quantidadeEmEstoque FROM bebidas WHERE id=?";
+            statement = connection.prepareStatement(sql);
+            statement.setInt(1, bebidaId);
+            ResultSet rs = statement.executeQuery();
+            if (rs.first()){
+               quantidade = rs.getInt("quantidadeEmEstoque");
+            }
+            rs.close();
+            conexao.close();
+        }catch (SQLException e){
+            conexao.close();
+            e.printStackTrace();
+            quantidade = null;
+        }
+        return quantidade;
+    }
+
     public Bebida find(String nome) {
         Bebida bebida = new Bebida();
         try {

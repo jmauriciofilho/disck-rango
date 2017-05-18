@@ -128,6 +128,8 @@ public class PedidoDao{
                 pedido.setDataDoPedido(rs.getString("dataDoPedido"));
                 pedido.setValor(rs.getDouble("valor"));
                 pedido.setTipoDePagamento(rs.getString("tipoDoPagamento"));
+                pedido.setPendente(rs.getBoolean("pendente"));
+                pedido.setDevolvido(rs.getBoolean("devolvido"));
             }
             rs.close();
             conexao.close();
@@ -156,6 +158,8 @@ public class PedidoDao{
                         pedido.setDataDoPedido(rs.getString("dataDoPedido"));
                         pedido.setValor(rs.getDouble("valor"));
                         pedido.setTipoDePagamento(rs.getString("tipoDoPagamento"));
+                        pedido.setPendente(rs.getBoolean("pendente"));
+                        pedido.setDevolvido(rs.getBoolean("devolvido"));
                         pedidos.add(pedido);
                     }
                 }
