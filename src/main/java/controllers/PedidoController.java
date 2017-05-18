@@ -19,18 +19,44 @@ public class PedidoController {
     }
 
     public String adicionarItemNoPedido(int pedidoId, int itemId){
-        pedidoDao.adicionarItenNoPedido(pedidoId, itemId);
-        return "Item adicionado ao pedido.";
+        Pedido pedido = find(pedidoId);
+        if (pedido.isPendente()){
+            pedidoDao.adicionarItenNoPedido(pedidoId, itemId);
+            return "Item adicionado ao pedido.";
+        }else {
+            return "Não se pode alterar este pedido.";
+        }
     }
 
-    public String removerItemDoPedido(int itensDoPedidoId){
-        pedidoDao.removeItenDoPedido(itensDoPedidoId);
-        return "Item removido do pedido";
+    public String removerItemDoPedido(int pedidoId, int itensDoPedidoId){
+        Pedido pedido = find(pedidoId);
+        if (pedido.isPendente()){
+            pedidoDao.removeItenDoPedido(itensDoPedidoId);
+            return "Item removido do pedido";
+        }else{
+            return "Nãp se pode alterar este pedido";
+        }
+
+    }
+
+    public String alterarEstadoDoPedidoEAtribuirEntregador(int pedidoId, int entregadorId){
+        pedidoDao.alterarEstadoDoPedidoEAtribuirEntregador(pedidoId, entregadorId);
+        return "Estado do pedido alterado com sucesso.";
+    }
+
+    public String devolucaoDoPedido(int pedidoId, boolean devolvido){
+        pedidoDao.devolucaoDoPedido(pedidoId, devolvido);
+        return "Estado de devolução alterado.";
     }
 
     public String delete(int pedidoId){
-        pedidoDao.delete(pedidoId);
-        return "Pedido exculido com sucesso";
+        Pedido pedido = find(pedidoId);
+        if (pedido.isPendente() || !pedido.isDevolvido()) {
+            pedidoDao.delete(pedidoId);
+            return "Pedido exculido com sucesso";
+        }else {
+            return "Pedido não pode ser removido";
+        }
     }
 
     public Pedido find(int id){

@@ -25,13 +25,12 @@ public class PedidoDao{
     public void create(Pedido pedido) {
         try {
             connection = conexao.open();
-            sql = "INSERT INTO pedidos (clienteId, entregadorId, dataDoPedido, valor, tipoDePagamento) VALUES (?,?,?,?,?)";
+            sql = "INSERT INTO pedidos (clienteId, dataDoPedido, valor, tipoDePagamento) VALUES (?,?,?,?)";
             statement = connection.prepareStatement(sql);
             statement.setInt(1, pedido.getClienteId());
-            statement.setInt(2, pedido.getEntregadorId());
-            statement.setString(3, pedido.getDataDoPedido());
-            statement.setDouble(4, pedido.getValor());
-            statement.setString(5, pedido.getTipoDePagamento());
+            statement.setString(2, pedido.getDataDoPedido());
+            statement.setDouble(3, pedido.getValor());
+            statement.setString(4, pedido.getTipoDePagamento());
             statement.execute();
             conexao.close();
         }catch (SQLException e){
@@ -62,6 +61,37 @@ public class PedidoDao{
             statement = connection.prepareStatement(sql);
             statement.setInt(1, itensDoPedidoId);
             statement.execute();
+            conexao.close();
+        }catch (SQLException e){
+            conexao.close();
+            e.printStackTrace();
+        }
+    }
+
+    public void alterarEstadoDoPedidoEAtribuirEntregador(int pedidoId, int entregadorId){
+        try {
+            connection = conexao.open();
+            sql = "UPDATE pedidos SET entregadorId=?, pendente=? WHERE id=?";
+            statement = connection.prepareStatement(sql);
+            statement.setInt(3, pedidoId);
+            statement.setInt(1, entregadorId);
+            statement.setBoolean(2, false);
+            statement.executeUpdate();
+            conexao.close();
+        }catch (SQLException e){
+            conexao.close();
+            e.printStackTrace();
+        }
+    }
+
+    public void devolucaoDoPedido(int pedidoId, boolean devolvido){
+        try {
+            connection = conexao.open();
+            sql = "UPDATE pedidos SET devolvido=? WHERE id=?";
+            statement = connection.prepareStatement(sql);
+            statement.setInt(2, pedidoId);
+            statement.setBoolean(1, devolvido);
+            statement.executeUpdate();
             conexao.close();
         }catch (SQLException e){
             conexao.close();

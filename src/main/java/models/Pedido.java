@@ -11,6 +11,8 @@ public class Pedido {
     private String dataDoPedido;
     private double valor;
     private String tipoDePagamento;
+    private boolean pendente;
+    private boolean devolvido;
 
     public Pedido(){}
 
@@ -69,6 +71,22 @@ public class Pedido {
 
     public void setTipoDePagamento(String tipoDePagamento) {
         this.tipoDePagamento = tipoDePagamento;
+    }
+
+    public boolean isPendente() {
+        return pendente;
+    }
+
+    public void setPendente(boolean pendente) {
+        this.pendente = pendente;
+    }
+
+    public boolean isDevolvido() {
+        return devolvido;
+    }
+
+    public void setDevolvido(boolean devolvido) {
+        this.devolvido = devolvido;
     }
 
     @Override
