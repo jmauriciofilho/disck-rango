@@ -22,6 +22,11 @@ public class ClienteController implements CrudController<Cliente>{
         return "Cliente atualizado com sucesso.";
     }
 
+    public String alterarClienteAtivo(int clienteId, boolean ativo){
+        clienteDao.alterarClienteAtivo(clienteId, ativo);
+        return "Estado do cliente alterado";
+    }
+
     public String delete(int clienteId){
         clienteDao.delete(clienteId);
         return "Cliente removido com sucesso.";

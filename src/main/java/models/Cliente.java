@@ -9,6 +9,7 @@ public class Cliente extends Pessoa{
     private String endereco;
     private String telefone;
     private String pontoDeReferencia;
+    private boolean ativo;
 
     public Cliente(){}
 
@@ -50,6 +51,14 @@ public class Cliente extends Pessoa{
 
     public void setPontoDeReferencia(String pontoDeReferencia) {
         this.pontoDeReferencia = pontoDeReferencia;
+    }
+
+    public boolean isAtivo() {
+        return ativo;
+    }
+
+    public void setAtivo(boolean ativo) {
+        this.ativo = ativo;
     }
 
     @Override

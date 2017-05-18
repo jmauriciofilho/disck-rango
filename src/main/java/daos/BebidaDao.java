@@ -53,6 +53,21 @@ public class BebidaDao implements CrudDao<Bebida>{
         }
     }
 
+    public void alterarQuantidaEmEstoque(int bebidaId, int quantidade){
+        try {
+            connection = conexao.open();
+            sql = "UPDATE bebidas SET quantidadeEmEstoque=? WHERE id=?";
+            statement = connection.prepareStatement(sql);
+            statement.setInt(2, bebidaId);
+            statement.setInt(1, quantidade);
+            statement.executeUpdate();
+            conexao.close();
+        }catch (SQLException e){
+            conexao.close();
+            e.printStackTrace();
+        }
+    }
+
     public void delete(int bebidaId) {
         try {
             connection = conexao.open();

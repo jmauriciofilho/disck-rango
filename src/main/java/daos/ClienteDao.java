@@ -55,6 +55,21 @@ public class ClienteDao implements CrudDao<Cliente>{
         }
     }
 
+    public void alterarClienteAtivo(int clienteId, boolean ativo){
+        try {
+            connection = conexao.open();
+            sql = "UPDATE clientes SET ativo=? WHERE id=?";
+            statement = connection.prepareStatement(sql);
+            statement.setInt(2, clienteId);
+            statement.setBoolean(1, ativo);
+            statement.executeUpdate();
+            conexao.close();
+        }catch (SQLException e){
+            conexao.close();
+            e.printStackTrace();
+        }
+    }
+
     public void delete(int clienteId){
         try {
             connection = conexao.open();
